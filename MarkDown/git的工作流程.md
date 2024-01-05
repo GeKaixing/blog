@@ -28,6 +28,7 @@
     <hr>
 新增退回上次修改<p>
 * 1.git reset --hard
+    <hr>
 git switch 2.23<p>
 * 1.git switch branch-name 切换分支
 * 2.git switch -c branch-new-name 创建新分支并切换
