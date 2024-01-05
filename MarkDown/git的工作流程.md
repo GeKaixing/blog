@@ -21,10 +21,18 @@
 * 5.git push -f origin xxx 把rebase后并且更新过的代码再push到远端github上
 （-f ---》强行）
 * 6.原项目主人采用pull request 中的 squash and merge 合并所有不同的commit
-    <hr>
+    <hr>Q
 远端完成更新后  <p>
 * 1.git branch -d xxx 删除本地的git分支
 * 2.git pull origin master 再把远端的最新代码拉至本地
     <hr>
 新增退回上次修改<p>
 * 1.git reset --hard
+git switch 2.23<p>
+* 1.git switch branch-name 切换分支
+* 2.git switch -c branch-new-name 创建新分支并切换
+* 3.git switch -- 撤销所分区所用更改
+* 4.git switch commit-‘’ 切换到特地的提交
+* 5.git switch - 查看可用的分支列表
+
+
