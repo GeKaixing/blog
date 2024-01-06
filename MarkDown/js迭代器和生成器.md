@@ -82,7 +82,7 @@ document数组
         console.log(value);//输出：2，3。因为1已经迭代出去
     }
 ```
-模拟原生async和await
+模拟原生casync和await
 ```js
     function my_async(fn,...params){
         let iter=fn(...params)
