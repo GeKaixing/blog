@@ -1,3 +1,4 @@
+[前端性能优化](https://github.com/GeKaixing/blog/issues/12)<p>
 [js节流和防抖函数](https://github.com/GeKaixing/blog/issues/11)<p>
 [js迭代器和生成器](https://github.com/GeKaixing/blog/issues/10)<p>
 [js元编程](https://github.com/GeKaixing/blog/issues/9)<p>
