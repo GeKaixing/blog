@@ -33,5 +33,38 @@
     console.log(Animal.bulid());
 ```
 #### 结构型/帮助我们优雅的设计代码结构
+外观模式
+```js
+class A{
+    test(){
+        console.log("hello world")
+    }
+}
+class B{
+    constructor(){
+        this a=new A()
+    }
+    test(){
+        this.a.test()
+    }
+}
+const b=new B()
+b.test()//hello world
+```
+适配器模式
+    也类似类继承
+```js
+class A{
+    test(){console.log('hello world')}
+}
+class B extends A{
+    req(){
+        this.test()
+    }
+}
+```
+装饰器模式
+    在不修改A的代码下扩展自己的代码。
+
 #### 行为型/模块之间行为的模式总计，帮助我们组织模块的行为
 #### 技巧型/一些帮助我们优化代码的技巧
