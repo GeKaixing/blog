@@ -1,3 +1,4 @@
+[linux命令](https://github.com/GeKaixing/blog/issues/14)<p>
 [js词法结构](https://github.com/GeKaixing/blog/issues/13)<p>
 [前端性能优化](https://github.com/GeKaixing/blog/issues/12)<p>
 [js节流和防抖函数](https://github.com/GeKaixing/blog/issues/11)<p>
