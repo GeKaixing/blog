@@ -30,7 +30,7 @@
     ```js
     const str2='gooooooood'
     const reg=/go+d/
-    const reg3=/go*d/
+    const reg3=/go*d/   
     const reg4=/go?d/
     console.log(reg.exec(str2));
     console.log(reg3.exec(str2));
@@ -69,4 +69,9 @@
     |m|多行匹配|
     |s|默认情况下的圆点.是匹配换行符\n之外的任何字符，加上s修饰符之后，.中包行换行符\n|
     |等|。。。|
-    
+* 转译
+    当我们需要匹配的是正则表达式的关键字时需要对他进行使用\反斜杠进行转译例如//就是匹配/斜杠
+```js
+     const tocRegex = /<h[1-6]>(.*?)<\/h1-6>/g;
+
+```
