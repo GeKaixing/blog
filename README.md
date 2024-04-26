@@ -1,3 +1,4 @@
+[简单在Linux(ubuntu)部署demo网页](https://github.com/GeKaixing/blog/issues/16)<P>
 [vue和react的区别](https://github.com/GeKaixing/blog/issues/15)<p>
 [linux命令](https://github.com/GeKaixing/blog/issues/14)<p>
 [js词法结构](https://github.com/GeKaixing/blog/issues/13)<p>
