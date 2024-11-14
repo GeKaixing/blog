@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-const markdown = import.meta.glob('/src/markdown/*.md')
+const markdown = import.meta.glob('../../public/markdown/*.md')
+console.log(markdown)
 const blog = ref<string[]>([])
 Object.keys(markdown).forEach((item) => {
-  blog.value.push(item.split('/')[3].split('.md')[0])
+  blog.value.push(item.split('/')[4].split('.md')[0])
 })
+console.log(blog.value)
 </script>
 <template>
     <ul class="absolute -translate-x-1/2 left-1/2 ">
