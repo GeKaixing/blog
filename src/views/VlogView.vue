@@ -7,6 +7,7 @@ const route = useRoute()
 onMounted(async () => {
   try {
     const markdown = await import(`../../public/markdown/${route.params.id}.md?raw`)
+    console.log(markdown.default)
     if (markdown?.default) {
       html.value = marked.parse(markdown.default)as string
     } else {
