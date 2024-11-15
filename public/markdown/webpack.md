@@ -231,7 +231,7 @@ export default defineConfig({
 })
 ```
   打包
-- npx vite build
+- npx vite build  
   开发服务器 
 - npx vite 
 
