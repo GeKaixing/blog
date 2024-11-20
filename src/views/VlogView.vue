@@ -19,5 +19,5 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class=" dark:text-white absolute -translate-x-1/2 left-1/2 w-[50%] prose lg:prose-xl" v-html="html"></div>
+  <div class=" dark:text-white absolute -translate-x-1/2 left-1/2 w-[80%] prose lg:prose-xl" v-html="html"></div>
 </template>
