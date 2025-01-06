@@ -1,3 +1,14 @@
+* 支持文档元数据例如link meta title
+* 支持样式表<style>{'div:{color:red}'}<style>
+* 支持script 异步脚本 <script async={true} src={'..'}/>
+* 支持预加载资源 通过react DOM引入的api{ prefetchDNS, preconnect, preload, preinit } 例如脚本，文字，样式，DNS
+* 改进ref，现在ref可以直接组件通信不在需要高阶函数forwardRef(),支持清理函数
+* 改进context 可以直接使用createContext api返回的值作为Provider 例如 const test=createContext();<test value={{'test1','test2'}}></test>
+* 改进useuseDeferredValue，添加了第二个可选参数，默认值
+* 新的hook useFormstatus useActionState 一个表单状态，一个action的状态 useOptimistic 乐观更新
+* 新的api use 在渲染中读取资源，这以为这它在DOM改变前执行
+* 新的概念 Action 一个异步过度函数，异步有三个状态“以兑现”，“以拒绝”，“待定中”，注意只能在非受控组件中使用
+* 新的编译器React Compiler ，帮助开发者优化性能
 ```
 import React, { useLayoutEffect, useEffect, useMemo, useCallback, useState, useRef, useContext, useReducer, useId, createContext } from 'react'
 //react 19的新功能
