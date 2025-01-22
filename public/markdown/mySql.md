@@ -22,6 +22,8 @@
     DALETE FROM student.user
     WHERE id=1; 表示 删除表格一行数据 在这表示位置
     DROP DATABASE student;删除数据库
+    DROP TABLE [IF EXISTS] table_name; -- 会检查是否存在，如果存在则删除
+    DROP TABLE table_name;   -- 直接删除表，不检查是否存在
 ## 查
     SELECT *
     FROM student.user;表示查看表格所有数据
