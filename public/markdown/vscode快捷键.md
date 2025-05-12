@@ -13,6 +13,7 @@ command 0 聚焦左侧边栏
 command w 关闭当前标签栏/当前分屏  
 control ` 打开终端  
 control g 跳转到行  
+command p 打开搜索栏  
 command enter 向下添加行  
 command shift 向上添加行  
 command left 向左单词移动  
